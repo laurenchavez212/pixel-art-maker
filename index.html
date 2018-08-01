@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Pixel Art Maker</h1>
+    <form id="sizePicker">
+      <span class="label">Rows - </span>
+      <input type="number" id="inputHeight" name="height" min="1" max="30" value="10">
+      <span class="label">Columns - </span>
+      <input type="number" id="inputWidth" name="width" min="1" max="30" value="10">
+      <input type="submit">
+      <input type="color" id="colorPicker">
+    </form>
+
+    <table id="canvas"></table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
